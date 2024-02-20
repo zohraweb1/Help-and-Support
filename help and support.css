@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4f80ca;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.nav-links {body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007acc;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007acc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.recommended-list,
+.topic-list {
+    list-style: none;
+    padding: 0;
+}
+
+.recommended-list li,
+.topic-list li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007acc;
+    color: #fff;
+}
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #397bc7;
+    font-weight: bold;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+label {
+    display: block;
+    padding: 10px;
+    background-color: #5fb6e9;
+    color: #fff;
+    cursor: pointer;
+}
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+input[type="checkbox"]:checked + label + .content {
+    max-height: 1000px; /* Adjust based on your content height */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4cad98;
+    color: #fff;
+}
